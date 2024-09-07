@@ -63,3 +63,32 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        margin: 10%; /* Adjusted margin */
+        width: 95%;
+    }
+
+    .container h1 {
+        font-size: 30px; /* Further adjusted font size */
+    }
+
+    .display {
+        padding: 16px; /* Reduced padding */
+        flex-direction: column; /* Stacked layout on smaller screens */
+    }
+
+    .display input {
+        font-size: 18px; /* Smaller font size for mobile */
+        width: 100%; /* Full width for input */
+        margin-top: 10px; /* Space between input and button */
+    }
+
+    .container button {
+        padding: 14px 20px; /* Adjusted padding */
+        font-size: 16px; /* Smaller font size */
+        margin-top: 10px; /* Margin for better spacing */
+    }
+}
