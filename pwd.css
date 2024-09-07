@@ -78,7 +78,7 @@ body{
     .display {
         padding: 16px; /* Reduced padding */
         flex-direction: column; /* Stacked layout on smaller screens */
-        margin: 0px 20px;
+        margin: 20px 25px;
     }
 
     .display input {
