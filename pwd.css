@@ -91,4 +91,8 @@ body{
         font-size: 16px; /* Smaller font size */
         margin-top: 10px; /* Margin for better spacing */
     }
+    .display img {
+        display: flex;
+        margin-right: -100%;
+    }
 }
